@@ -13,9 +13,9 @@ const ANKLE = '1qbuV9lxWnvhvp0eLYv3EtO5NUKTxKE8X';
 export const PRODUCTS: Product[] = [
   {
     id: 'socks-premium',
-    name: 'Memory Foam Socks',
-    price: 169,
-    description: 'High-quality breathable cotton socks designed for ultimate comfort and durability. Available in multiple lengths and sizes.',
+    name: 'Premium Comfort Socks',
+    price: 149,
+    description: 'High-quality breathable cotton socks designed for ultimate comfort and durability. Available in multiple lengths and vibrant colors.',
     image: getDirectImageLink(ANKLE), // Default image
     category: 'Socks',
     hasOptions: true,
@@ -28,27 +28,27 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'anti-bite-tape',
-    name: 'Transparent Shoe Bite Tape',
-    price: 119,
-    description: 'Protect your heels and feet from painful blisters. Our medical-grade transparent tape is discreet and stays in place all day.',
+    name: 'Transparent Anti Shoe Bite Tape',
+    price: 129,
+    description: 'Protect your heels and feet from painful blisters. Our medical-grade transparent tape is discreet, waterproof, and stays in place all day.',
     image: getDirectImageLink(TAPE),
     category: 'Accessories',
     aspect: '8/5'
   },
   {
     id: 'perfume-pouches',
-    name: 'Deodorizer Pouches',
+    name: 'Luxury Perfume Pouches for Shoes',
     price: 149,
-    description: 'Keep your footwear smelling fresh with our luxury perfume pouches. Effectively neutralizes odors with a long-lasting, refreshing scent.',
+    description: 'Keep your footwear smelling amazing with our premium perfume pouches. Effectively neutralizes odors with a long-lasting, luxury scent.',
     image: getDirectImageLink(DEODORIZER_POUCHES),
     category: 'Accessories',
     aspect: '4/5'
   },
   {
     id: 'shoe-wipes',
-    name: 'Shoe Cleaning Wipes',
-    price: 149,
-    description: 'Instant cleaning on the go. These dual-textured wipes remove dirt and scuffs from sneakers, leather, and rubber easily. Available in packs of 10 and 25.',
+    name: 'Dual-Textured Cleaning Wipes',
+    price: 249,
+    description: 'Instant cleaning on the go. These dual-textured wipes remove dirt and scuffs from sneakers, leather, and rubber easily.',
     image: getDirectImageLink(WIPES),
     category: 'Care',
     hasOptions: true,
