@@ -1,6 +1,6 @@
 
 import React, { useState, useCallback, useMemo } from 'react';
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { CartItem } from './types';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -36,10 +36,10 @@ const Footer = () => (
       <div>
         <h4 className="text-white font-bold mb-6">Quick Links</h4>
         <ul className="space-y-4 text-sm">
-          <li><a href="#/" className="hover:text-white transition">Home</a></li>
-          <li><a href="#/shop" className="hover:text-white transition">Shop</a></li>
-          <li><a href="#/contact" className="hover:text-white transition">Contact Us</a></li>
-          <li><a href="#/shop" className="hover:text-white transition">New Arrivals</a></li>
+          <li><a href="/" className="hover:text-white transition">Home</a></li>
+          <li><a href="/shop" className="hover:text-white transition">Shop</a></li>
+          <li><a href="/contact" className="hover:text-white transition">Contact Us</a></li>
+          <li><a href="/shop" className="hover:text-white transition">New Arrivals</a></li>
         </ul>
       </div>
       <div>
