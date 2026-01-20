@@ -47,7 +47,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'shoe-wipes',
     name: 'Dual-Textured Cleaning Wipes',
-    price: 249,
+    price: 149,
     description: 'Instant cleaning on the go. These dual-textured wipes remove dirt and scuffs from sneakers, leather, and rubber easily.',
     image: getDirectImageLink(WIPES),
     category: 'Care',
