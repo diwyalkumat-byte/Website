@@ -51,7 +51,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ addToCart }) => {
 
   // Dynamic price calculation
   const currentPrice = isWipes 
-    ? (selectedPack === 'Pack of 10' ? 249 : 599) 
+    ? (selectedPack === 'Pack of 10' ? 149 : 229) 
     : product.price;
 
   // Reverted to photo-based logic: Display image based on selected length option
